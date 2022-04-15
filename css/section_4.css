@@ -1,0 +1,78 @@
+/* font-family: 'Libre Franklin', sans-serif; */
+/* font-family: 'Tenor Sans', sans-serif; */
+/* font-family: 'Source Serif Pro', serif; */
+
+.section_4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: calc(45px + (90 - 45) * ((100vw - 320px) / (1440 - 320)));
+}
+.container_section_4 {
+    max-width: 1200px;
+    width: 100%;
+    /* outline: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: calc(30px + (60 - 30) * ((100vw - 320px) / (1440 - 320)));
+}
+.container_section_4 p:nth-child(1) {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #999999;
+    margin-bottom: calc(15px + (25 - 15) * ((100vw - 320px) / (1440 - 320)));
+}
+.box_block_top_section_4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: calc(15px + (25 - 15) * ((100vw - 320px) / (1440 - 320)));
+}
+.box_block_bottom_section_4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.block-1_section_4 {
+    max-width: 590px;
+    width: 100%;
+    /* outline: 1px solid red; */
+}
+.block-1_section_4 p:nth-child(2) {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #999999;
+    text-transform: uppercase;
+    margin-top: calc(15px + (25 - 15) * ((100vw - 320px) / (1440 - 320)));
+}
+.block-1_section_4 p:nth-child(3) {
+    max-width: 543px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-top: calc(11px + (18 - 11) * ((100vw - 320px) / (1440 - 320)));
+}
+.block-1_section_4 p:nth-child(4) {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-top: calc(10px + (15 - 10) * ((100vw - 320px) / (1440 - 320)));
+}

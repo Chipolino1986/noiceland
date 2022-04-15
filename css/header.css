@@ -1,0 +1,36 @@
+/* font-family: 'Libre Franklin', sans-serif; */
+/* font-family: 'Tenor Sans', sans-serif; */
+/* font-family: 'Source Serif Pro', serif; */
+
+.header {
+    width: 100%;
+    min-height: 90px;
+    border-bottom: 1px solid #E6E6E6;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.container_header {
+    max-width: 1200px;
+    width: 100%;
+    /* outline: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.item {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: black;
+    margin: 0 40px 0 40px;
+}
