@@ -34,3 +34,24 @@
     color: black;
     margin: 0 40px 0 40px;
 }
+.burger_box {
+    width: 27px;
+    height: 20px;
+    /* border: 1px solid black; */
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.burger_line {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+@media screen and (max-width:590px) {
+    .nav {
+        display: none;
+    }
+    .burger_box {
+        display: flex;
+    }
+}

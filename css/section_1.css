@@ -71,3 +71,20 @@
     color: black;
     letter-spacing: 1px;
 }
+@media screen and (max-width: 1240px) {
+    .container_section_1 {
+        justify-content: center;
+    }
+    .block_2_section_1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:420px) {
+    .sub_block_2_section_1 {
+        padding-left: 0;
+    }
+    .sub_block_2_section_1 p:nth-child(2) {
+        line-height: 28px;
+    }
+}

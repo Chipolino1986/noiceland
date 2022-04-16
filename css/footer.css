@@ -49,11 +49,12 @@
     height: 100%;
     /* outline: 1px solid rgb(255, 0, 0); */
     display: flex;
+    justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
 }
 .in_frame_top {
-    max-width: 900px;
+    max-width: 850px;
     width: 100%;
     min-height: 110px;
     /* outline: 1px solid white; */
@@ -136,9 +137,9 @@
     margin-left: 5px;
 }
 .email {
-    max-width: 221px;
+    /* max-width: 221px; */
+    max-width: calc(160px + (221 - 160) * ((100vw - 320px) / (1440 - 320)));
     min-height: 48px;
-    height: 100%;
 }
 .email::placeholder {
     font-family: 'Libre Franklin', sans-serif;
@@ -157,9 +158,6 @@
     align-items: center;
     justify-content: flex-end;
 }
-
-
-
 
 
 
@@ -199,4 +197,78 @@
 }
 .block_1_in_frame_bottom a:hover {
     text-decoration: underline;
+}
+@media screen and (max-width: 1280px) {
+    .frame_top {
+        justify-content: center;
+        text-align: center;
+    }
+    .in_frame_top {
+        padding: 0;
+        max-width: 840px;
+    }
+    .frame_bottom {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 700px;
+    }
+    .mail-box {
+        margin: 40px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .footer_head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer_head p {
+        font-size: 9px;
+    }
+    .frame_bottom {
+        display: block;
+    }
+    .in_frame_top {
+        display: block;
+        padding: 0;
+    }
+    .in_frame_top_head {
+        justify-content: center;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .block_1_in_frame_top a {
+        margin: 0 auto;
+    }
+    .block_1_in_frame_bottom a {
+        margin: 0 auto;
+    }
+    .block_1_in_frame_bottom {
+        margin: 0 auto;
+    }
+    .p-1 {
+        width: 50%;
+        margin: 10px auto;
+    }
+    .p-2 {
+        width: 40%;
+        margin: 10px auto;
+    }
+    .p-3 {
+        width: 40%;
+        margin: 10px auto;
+    }
+    .mail-box {
+        margin: 0 auto;
+    }
+    .mail-box_head {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .form_mail {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
 }
